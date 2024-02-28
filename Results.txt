@@ -1,0 +1,17 @@
+I tried to experiment with 3 models: ViT, ViT (with pretrained CNN), and a CNN.
+
+I noticed that involving a CNN results in better performance on small datasets. However, ViT will perform better as the dataset increases with increase in epochs as the model is trained well.
+
+Plotting the heatmaps using GradCAM was interesting as the library was not open-sourced on colab or kaggle. Implementing it was tedious and threw many errors, but eventually I found a solution for model1. Model2 had spatial dimensionality errors which took a lot of my time and I had to drop the idea.
+
+The model2 and model3 are for experimental purposes only. If given more time, I could experiment more to provide the best model. 
+
+I researched and found out that there is a model implemented usinf fast.ai which provides higher accuracy for 100 epochs. If reverse engineered, I could implement the same using Torch.
+
+Overall I personally think that TensorFlow is a better option than Torch.
+
+In case of choosing between CNN or ViT, I believe ViT will perform better on huge datasets. My device does not support high computational levels so i had to use colab pro to get a better GPU. If a high computing device is available, I can train a better model.
+
+I request you to consider only the model1 as my submission as the other models were just for my experimental purposes.
+
+I wished to experiment more with different e=seeting to increase the robustness and accuracy for the model. However the time span and my device compatibility were a barrier.
